@@ -1,0 +1,6 @@
+Date (YYYY-MM-DD), Action(buy/sell), Number of units, Ticker
+2024-05-29,buy,1000000,BIL
+2024-05-29,buy,80000,SBUX
+2024-08-30,buy,80000,WMT
+2024-09-30,buy,80000,PEP
+2024-07-01,sell,40000,PEP
