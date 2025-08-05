@@ -1,4 +1,7 @@
-Date (YYYY-MM-DD),Action (buy/sell),Amount Bought/Sold,Ticker
+Date,Action (buy/sell),"Number of units
+",Ticker
 2025-06-23,Buy,6500,RTX
 2025-06-23,Buy,2000,GLD
-1/7/25,Buy,16000,BIL
+2025-07-01,Buy,16000,BIL
+2025-08-05,Buy,1000,GE
+2025-08-05,Buy,1000,GEV
