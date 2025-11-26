@@ -33,9 +33,10 @@ Date of trade submitted (YYYY-MM-DD),Action,Amount Bought/Sold,Ticker
 2025-10-10,sell,1006,BIL
 2025-10-10,buy,240,HCA
 2025-10-29, sell, 20000, HCA
-2025-10-29, buy, 70000 NVS
+2025-10-29, buy, 70000, NVS
 2025-10-29, buy, 5000 PFE
 2025-10-31, sell, 20000, ABBV
 2025-10-31, buy, 108000 PFE
 2025-10-31, buy, 25481, BIL
+
 
