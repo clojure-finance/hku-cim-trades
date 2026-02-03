@@ -1,8 +1,9 @@
-Date of trade submitted,Action,Amount bought/sold (unit),Ticker
-2024-11-19,buy,30000,AA
-2024-11-19,buy,30000,EXP
-2025-04-01,buy,30000,LIN
-2025-04-01,sell,15000,AA
-2025-04-03,sell,10000,AA
-2025-04-03,sell,20000,EXP
-2025-04-03,sell,20000,LIN
+Date of trade submitted (YYYY-MM-DD),Action,Amount Bought/Sold,Ticker
+2024-11-19,Buy,30000,AA
+2024-11-19,Buy,30000,EXP
+2025-03-31,Buy,30000,LIN
+2025-03-31,Sell,15000,AA
+2025-04-03,Sell,10000,AA
+2025-04-03,Sell,20000,EXP
+2025-04-03,Sell,20000,LIN
+2025-10-15,Sell,5000,LIN

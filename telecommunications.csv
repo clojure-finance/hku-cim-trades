@@ -1,2 +1,8 @@
-Date of trade submitted (YYYY-MM-DD),Action,Amount Bought/Sold,Ticker
-2024-07-01,buy,300000,BIL
+Date (YYYY-MM-DD),Action (buy/sell),Number of units,Ticker
+2025-10-22,buy,54969,TMUS
+2025-10-22,buy,73846,QCOM
+2025-10-22,buy,314070,VZ
+2025-10-22,buy,489236,T
+2026-01-11,sell,78518,VZ
+2026-01-11,buy,9209,AVGO
+2026-02-01,sell,489236,T
