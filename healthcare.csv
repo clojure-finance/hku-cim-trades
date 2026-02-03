@@ -1,4 +1,4 @@
-Date of trade submitted (YYYY-MM-DD),Action,Amount Bought/Sold,Ticker
+Date(YYYY-MM-DD),Action(buy/sell),Number of units,Ticker,Price
 2024-12-02,buy,450000,MRK
 2025-01-07,buy,20,UNH
 2025-04-03,buy,100,TMO
@@ -38,6 +38,7 @@ Date of trade submitted (YYYY-MM-DD),Action,Amount Bought/Sold,Ticker
 2025-10-31,sell,20000,ABBV
 2025-10-31,buy,108000,PFE
 2025-10-31,buy,25481,BIL
+
 
 
 
