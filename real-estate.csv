@@ -1,5 +1,5 @@
-Date of trade submitted (YYYY-MM-DD),Action,Amount Bought/Sold,Ticker
-2025-03-04, Buy, 10000, BEKE
-2025-03-04, Buy, 10000, SPG
-2026-02-03, Sell, 5000, BEKE
-2026-02-03, Buy, 5000, PLD
+Date (YYYY-MM-DD),Ticker,Action (buy/sell),Number of units
+2025-03-04, BEKE, Buy, 10000
+2025-03-04, SPG, Buy, 10000
+2026-02-03, BEKE, Sell, 5000
+2026-02-03, PLD, Buy, 5000
