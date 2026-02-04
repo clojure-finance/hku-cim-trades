@@ -1,3 +1,6 @@
-﻿Date (YYYY-MM-DD),Ticker,Action (buy/sell),Number of units
-2025-10-28,MSFT,buy,3350
-2025-10-28,GOOGL,buy,4250
+Date (YYYY-MM-DD),Ticker,Action (buy/sell),Number of units
+10/28/2025,MSFT,buy,3350
+10/28/2025,GOOGL,buy,4250
+2/2/2025,MSFT,sell,3350
+2/2/2025,WDC,buy,2500
+2/2/2025,FSLR,buy,2500
