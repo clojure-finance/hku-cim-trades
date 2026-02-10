@@ -18,7 +18,8 @@ The "status" of the order will be changed to completed and the history of such a
 <br>
 
 ## To add more teams:<br>
-To add CSV files to be processed, it must be added to the two lists at the very start of the program (make sure the index is matching). It also has to be added in the Github actions program under "Commit and push changes" to make sure any changes made by the order program is properly saved and updated.<br>
+To add CSV files to be processed, it must be added to the two lists at the very start of the program (make sure the index is matching). It also has to be added in the Github actions program under "Commit and push changes" to make sure any changes made by the order program is properly saved and updated.
+
 Current Teams:
 1. Technology
 2. Healthcare
@@ -55,6 +56,8 @@ Is the stoploss order, is prices reach below the trigger price, then the number 
 Is the stop buy order, if prices reach above the trigger price, then the number of stocks selected will be bought automatically. Compare with prev day high
 
 **Please remember to use the full names when placing orders, i.e. write limitsell not ls**
+
+<br>
 
 Overall notes:
 1. Currently, the program has yet to be tested properly so may have a low tolerenance for user input error and any formats that are non-standard will likely result in a order just being skipped. Please follow the proper expected formatting requirements
