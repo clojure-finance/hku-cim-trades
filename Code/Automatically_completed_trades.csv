@@ -1,1 +1,2 @@
 Date,Action
+2026-02-09,"Order date: 2025-12-23 | Order team: Order_files/Test_order.csv | Placed trade: {'Date(YYYY-MM-DD)': '2026-02-09', 'Action(buy/sell)': 'buy', 'Number of units': 100, 'Ticker': 'AAPL', 'Price': np.float64(277.9100036621094)}"
