@@ -69,12 +69,13 @@ Note: **Please remember to use the full names when placing orders, i.e. write li
 
 Overall notes:
 1. Currently, the program has yet to be tested properly so may have a low tolerenance for user input error and any formats that are non-standard will likely result in a order just being skipped. Please follow the proper expected formatting requirements
-2. The program executes at 11am (hkt) everyday and checks for yesterday's prices. This is to ensure that yfinance has all the data for all the markets around the world. Orders placed on the date will be ingored until the next day. (e.g. A order placed on Jan 10 will only be treated as valid when the program is checking for Jan 11 orders)
-3. All currencies are in the local currency, when placing orders just use the local market currency. **No** currency conversion of any kind is required (e.g. traded on HKEX just directly use nominal value in HKD)
+2. The program executes at 915am (hkt) everyday and checks for yesterday's prices. This is to ensure that yfinance has all the data for all the markets around the world. Orders placed on the date will be ingored until the next day. (e.g. A order placed on Jan 10 will only be treated as valid when the program is checking for Jan 11 orders)
+3. The real execution time of the program may not be 915. When it executes heavily depends on the load on Github servers, sometimes it may take a few hours. i.e. execute at 11am or 1pm. Please navigate to actions tab to check if the program has executed for the day.
+4. All currencies are in the local currency, when placing orders just use the local market currency. **No** currency conversion of any kind is required (e.g. traded on HKEX just directly use nominal value in HKD)
 
 Common Q&A:<br>
 1. Q: I placed my order and it should have executed but the trade is not shown in my trade file?<br>
-A: Note that the trade file is only updated at around 11am HKT the next day for each trading day, so if you just wait a day it may show up. If it still does not show up, please check your formatting, any invalid data types or extra spaces may have triggered an error which will cause your order to be noted as invalid<br>
+A: Note that the trade file is only updated at around 915am HKT the next day for each trading day, so if you just wait a day it may show up. If it still does not show up, please check your formatting, any invalid data types or extra spaces may have triggered an error which will cause your order to be noted as invalid<br>
 e.g. Invalid date: 10/10/2025 | Correct date: 2025-10-10<br>
 e.g. Invalid formatting: ...buy,  100,... | Correct formatting: ...buy,100,... (No extra spaces)
 
