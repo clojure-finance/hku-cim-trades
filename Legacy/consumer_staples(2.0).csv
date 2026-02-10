@@ -1,4 +1,4 @@
-Date (YYYY-MM-DD),Action(buy/sell),Number of units,Ticker
+Date(YYYY-MM-DD),Action(buy/sell),Number of units,Ticker
 2024-05-29,buy,80000,SBUX
 2024-08-30,buy,80000,WMT
 2024-09-30,buy,80000,PEP
