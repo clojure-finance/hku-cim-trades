@@ -3,11 +3,11 @@ Place orders by using a order csv file from the Order_files folder such as "xx_o
 
 Date(YYYY-MM-DD),Action(buy/sell),TriggerPrice,Number of units,Ticker,Status
 
-*The formats and column names should be strictly followed to avoid the order being skipped or imported incorrectly. i.e. Please do not change any column names yourself and do not use the wrong data type, formatting, or include extra spaces.*
+Note: *The formats and column names should be strictly followed to avoid the order being skipped or imported incorrectly. i.e. Please do not change any column names yourself and do not include extra spaces or use the wrong data type or formatting.*
 
 <br>
 
-A program will check for whether the order is executed, and if it is, automatically place a market order in this format:
+A program will check for whether the order is valid and executed, and if it is, automatically place a market order in this format:
 
 Date(YYYY-MM-DD),Action(buy/sell),Number of units,Ticker
 
@@ -55,7 +55,7 @@ Is the stoploss order, is prices reach below the trigger price, then the number 
 6. stopbuy:<br>
 Is the stop buy order, if prices reach above the trigger price, then the number of stocks selected will be bought automatically. Compare with prev day high
 
-**Please remember to use the full names when placing orders, i.e. write limitsell not ls**
+Note: **Please remember to use the full names when placing orders, i.e. write limitsell not ls**
 
 <br>
 
