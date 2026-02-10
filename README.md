@@ -9,7 +9,7 @@ Note: *The formats and column names should be strictly followed to avoid the ord
 
 A program will check for whether the order is valid and executed, and if it is, automatically place a market order in this format:
 
-Date(YYYY-MM-DD),Action(buy/sell),Number of units,Ticker
+Date(YYYY-MM-DD),Action(buy/sell),Number of units,Ticker,Price
 
 To analyze your portfolio, just directly take the files from the Completed_trades folder. e.g. "xx_trades.csv".
 
