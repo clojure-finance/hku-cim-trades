@@ -1,0 +1,61 @@
+name: Daily Order Conversion
+on:
+  schedule:
+    - cron: '0 1 * * *'  # 01:00 UTC = 11am HKT
+  workflow_dispatch:
+  
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5 
+        with:
+          python-version: '3.12'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas yfinance      
+      
+      - name: Run Python script
+        run: python Code/Order_program.py
+      
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'Completed_trades/Test_trade.csv,
+               Completed_trades/Technology_trades.csv,
+               Completed_trades/Healthcare_trades.csv,
+               Completed_trades/Financials_trades.csv,
+               Completed_trades/Consumer_Discretionary_trades.csv,
+               Completed_trades/Consumer_Staples_trades.csv,
+               Completed_trades/Industrials_trades.csv,
+               Completed_trades/Energy_trades.csv,
+               Completed_trades/Utilities_trades.csv,
+               Completed_trades/Materials_trades.csv,
+               Completed_trades/Telecommunications_trades.csv,
+               Completed_trades/Real_Estate_trades.csv,
+               Order_files/Test_order.csv,
+               Order_files/Technology_order.csv,
+               Order_files/Healthcare_order.csv,
+               Order_files/Financials_order.csv,
+               Order_files/Consumer_Discretionary_order.csv,
+               Order_files/Consumer_Staples_order.csv,
+               Order_files/Industrials_order.csv,
+               Order_files/Energy_order.csv,
+               Order_files/Utilities_order.csv,
+               Order_files/Materials_order.csv,
+               Order_files/Telecommunications_order.csv,
+               Order_files/Real_Estate_order.csv,
+               Code/Automatically_completed_trades.csv'
+          
+
+
