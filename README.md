@@ -4,6 +4,7 @@ Place orders by using a order csv file from the Order_files folder such as "xx_o
 Date(YYYY-MM-DD),Action(buy/sell),TriggerPrice,Number of units,Ticker,Status
 
 **The formats and column names should be strictly followed to avoid the order being skipped or imported incorrectly. i.e. Please do not change any column names yourself and do not use the wrong data type, formatting, or include extra spaces.**
+
 <br>
 
 A program will check for whether the order is executed, and if it is, automatically place a market order in this format:
@@ -13,6 +14,7 @@ Date(YYYY-MM-DD),Action(buy/sell),Number of units,Ticker
 To analyze your portfolio, just directly take the files from the Completed_trades folder. e.g. "xx_trades.csv".
 
 The "status" of the order will be changed to completed and the history of such a automatic order will also be added into changelog once a order is complete. The changelog is there to help verify what orders are executed in case there are any situations where the program is buggy and placed some wrong orders.
+
 <br>
 
 **To add more teams:**<br>
