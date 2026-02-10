@@ -1,2 +1,3 @@
 Date(YYYY-MM-DD),Action(buy/sell),Number of units,Ticker,Price
 2026-02-09,buy,100,AAPL,277.9100036621094
+2026-02-09,sell,100,AAPL,277.9100036621094
