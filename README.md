@@ -70,7 +70,7 @@ Note: **Please remember to use the full names when placing orders, i.e. write li
 Overall notes:
 1. Currently, the program has yet to be tested properly so may have a low tolerenance for user input error and any formats that are non-standard will likely result in a order just being skipped. Please follow the proper expected formatting requirements
 2. The program executes at 915am (hkt) everyday and checks for yesterday's prices. This is to ensure that yfinance has all the data for all the markets around the world. Orders placed on the date will be ingored until the next day. (e.g. A order placed on Jan 10 will only be treated as valid when the program is checking for Jan 11 orders)
-3. The real execution time of the program may not be 915. When it executes heavily depends on the load on Github servers, sometimes it may take a few hours. i.e. execute at 11am or 1pm. Please navigate to actions tab to check if the program has executed for the day.
+3. The real execution time of the program may not be 915am. When it executes heavily depends on the load on Github servers, sometimes it may take a few hours. i.e. execute at 11am or 1pm. Please navigate to actions tab on the top to check if the program has executed for the day.
 4. All currencies are in the local currency, when placing orders just use the local market currency. **No** currency conversion of any kind is required (e.g. traded on HKEX just directly use nominal value in HKD)
 
 Common Q&A:<br>
