@@ -5,6 +5,14 @@ Date(YYYY-MM-DD),Action(buy/sell),TriggerPrice,Number of units,Ticker,Status
 
 Note: *The formats and column names should be strictly followed to avoid the order being skipped or imported incorrectly. i.e. Please do not change any column names yourself and do not include extra spaces or use the wrong data type or formatting.*
 
+Example trades:<br>
+2026-01-05,marketbuy,,100,AAPL,Active<br>
+2025-12-23,marketsell,,100,AAPL,Active<br>
+2026-01-05,limitbuy,1000,100,AAPL,Active<br>
+2025-12-23,limitsell,1000,100,AAPL,Active<br>
+2026-01-05,stopbuy,1000,100,AAPL,Active<br>
+2025-12-23,stoploss,1000,100,AAPL,Active<br>
+
 <br>
 
 A program will check for whether the order is valid and executed, and if it is, automatically place a market order in this format:
