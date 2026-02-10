@@ -1,13 +1,13 @@
 Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,Status
-2025-01-02,limitbuy,1000.0,100,AAPL,Co1ete
-2025-01-03,limitbuy,260.8,100,AAPL,Com1e
-2025-01-04,limitbuy,258.0,100,AAPL,Com1te
-2025-01-01,limitbuy,10.0,100,AAPL,Ac1e
-2025-01-06,limitsell,1000.0,100,AAPL,Ac1e
-2025-01-07,limitsell,260.8,100,AAPL,Co1ete
-2025-01-08,limitsell,258.0,100,AAPL,Com1te
-2025-01-05,limitsell,10.0,100,AAPL,Com1e
-2025-01-05,limitsell,10.0,100,AAPL,Co1te
-2025-01-05,marketbuy,,100,AAPL,Co1te
-2025-01-05,marketsell,100000.0,100,AAPL,C1te
-2026-01-15,marketsell,100000.0,100,AAPL,Act1
+2025-01-02,limitbuy,1000.0,100,AAPL,Complete
+2025-01-03,limitbuy,260.8,100,AAPL,Complete
+2025-01-04,limitbuy,258.0,100,AAPL,Complete
+2025-01-01,limitbuy,10.0,100,AAPL,Active
+2025-01-06,limitsell,1000.0,100,AAPL,Active
+2025-01-07,limitsell,260.8,100,AAPL,Complete
+2025-01-08,limitsell,258.0,100,AAPL,Complete
+2025-01-05,limitsell,10.0,100,AAPL,Complete
+2025-01-05,limitsell,10.0,100,AAPL,Complete
+2025-01-05,marketbuy,,100,AAPL,Complete
+2025-01-05,marketsell,100000.0,100,AAPL,Complete
+2026-01-15,marketsell,100000.0,100,AAPL,Active
