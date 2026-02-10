@@ -1,41 +1,49 @@
 # Instructions on usage
-Place orders by using a order csv file such as "<Industry>_order.csv" in the format of:
+Place orders by using a order csv file from the Order_files folder such as "xx_order.csv" in the format of:
 
 Date(YYYY-MM-DD),Action(buy/sell),TriggerPrice,Number of units,Ticker,Status
+
+**The formats and column names should be strictly followed to avoid the order being skipped or imported incorrectly. i.e. Please do not change any column names yourself and do not use the wrong data type, formatting, or include extra spaces.**
+
+<br>
+<br>
 
 A program will check for whether the order is executed, and if it is, automatically place a market order in this format:
 
 Date(YYYY-MM-DD),Action(buy/sell),Number of units,Ticker
 
-**The formats and column names should be strictly followed to avoid the order being skipped or imported incorrectly. i.e. Please do not change any column names yourself and do not use the wrong data type, formatting, or include extra spaces.**
+To analyze your portfolio, just directly take the files from the Completed_trades folder. e.g. "xx_trades.csv".
 
 The "status" of the order will be changed to completed and the history of such a automatic order will also be added into changelog once a order is complete. The changelog is there to help verify what orders are executed in case there are any situations where the program is buggy and placed some wrong orders.
 
+<br>
+<br>
+
+**To Add more teams:**<br>
 To add CSV files to be processed, it must be added to the two lists at the very start of the program (make sure the index is matching). It also has to be added in the Github actions program under "Commit and push changes" to make sure any changes made by the order program is properly saved and updated.
 
 The current available order types under Action(mb/ms/lb/ls/sl/sb):
 
-marketbuy:
-
+1. marketbuy:<br>
 Simple order to buy at next day's opening price
 
-marketsell:
+2. marketsell:
 
 Simple order to sell at next day's opening price
 
-limitbuy:
+3. limitbuy:
 
 Is the limit buy order, if price drops below trigger price then the selected number of stocks will be bought automactically. Compare with prev day low
 
-limitsell:
+4. limitsell:
 
 Is the limit sell order, if price reaches above the trigger price then the selected number of stocks will be sold automatically. Compare with prev day high
 
-stoploss:
+5. stoploss:
 
 Is the stoploss order, is prices reach below the trigger price, then the number of stocks selected will be sold automatically. Compare with prev day low
 
-stopbuy:
+6. stopbuy:
 
 Is the stop buy order, if prices reach above the trigger price, then the number of stocks selected will be bought automatically. Compare with prev day high
 
@@ -62,9 +70,10 @@ Current Teams & files
 
 Common Q&A:
 1. 
-Q: I placed my order and it should have executed but the trade is not shown in my trade file?
-A: Note that the trade file is only updated at around 11am HKT the next day for each trading day, so if you just wait a day it may show up. If it still does not show up, please check your formatting, any invalid data types or extra spaces may have triggered an error which will cause your order to be noted as invalid
-e.g. Invalid date: 10/10/2025 | Correct date: 2025-10-10
+
+Q: I placed my order and it should have executed but the trade is not shown in my trade file?<br>
+A: Note that the trade file is only updated at around 11am HKT the next day for each trading day, so if you just wait a day it may show up. If it still does not show up, please check your formatting, any invalid data types or extra spaces may have triggered an error which will cause your order to be noted as invalid<br>
+e.g. Invalid date: 10/10/2025 | Correct date: 2025-10-10<br>
 e.g. Invalid formatting: ...buy,  100,... | Correct formatting: ...buy,100,... (No extra spaces)
 
 
