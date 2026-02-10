@@ -1,1 +1,2 @@
 Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,Status
+2025-12-23,limitbuy,1000,100,AAPL,Active
