@@ -1,17 +1,17 @@
 # Instructions on usage
-People place limit orders by using a Limit order csv file such as "Limit_order_A" in the format of:
+Place orders by using a order csv file such as "<Industry>_order.csv" in the format of:
 
 Date(YYYY-MM-DD),Action(buy/sell),TriggerPrice,Number of units,Ticker,Status
 
-The program will check for whether the limit order is executed, and if it is, automatically place a market order in a similar format as hku-cim-trades. Which is something like this:
+A program will check for whether the order is executed, and if it is, automatically place a market order in this format:
 
 Date(YYYY-MM-DD),Action(buy/sell),Number of units,Ticker
 
-**The formats and column names should be strictly followed to avoid the order being skipped or imported incorrectly**
+**The formats and column names should be strictly followed to avoid the order being skipped or imported incorrectly. i.e. Please do not change any column names yourself and do not use the wrong data type, formatting, or include extra spaces.**
 
-The "status" of the limit order will be changed to completed and the history of such a automatic order will also be added into changelog once a order is complete. The changelog is there to help verify what orders are executed in case there are any situations where the program is buggy and placed some wrong orders.
+The "status" of the order will be changed to completed and the history of such a automatic order will also be added into changelog once a order is complete. The changelog is there to help verify what orders are executed in case there are any situations where the program is buggy and placed some wrong orders.
 
-To add CSV files to be processed, it must be added to the two lists at the very start of the program (make sure the index is matching). It also has to be added in the Github actions program under "Commit and push changes" to make sure any changes made by the limit order program is properly saved and updated.
+To add CSV files to be processed, it must be added to the two lists at the very start of the program (make sure the index is matching). It also has to be added in the Github actions program under "Commit and push changes" to make sure any changes made by the order program is properly saved and updated.
 
 The current available order types under Action(mb/ms/lb/ls/sl/sb):
 
@@ -63,9 +63,10 @@ Current Teams & files
 Common Q&A:
 1. 
 Q: I placed my order and it should have executed but the trade is not shown in my trade file?
-A: Note that the trade file is only updated at around 11am HKT the next day for each trading day, so if you just wait a day it may show up. If it still does not, please check your formatting, any invalid data types or extra spaces may have triggered an error which will cause your order to be noted as invalid
+A: Note that the trade file is only updated at around 11am HKT the next day for each trading day, so if you just wait a day it may show up. If it still does not show up, please check your formatting, any invalid data types or extra spaces may have triggered an error which will cause your order to be noted as invalid
+e.g. Invalid date: 10/10/2025 | Correct date: 2025-10-10
+e.g. Invalid formatting: ...buy,  100,... | Correct formatting: ...buy,100,... (No extra spaces)
 
-2. 
 
 
 # Documentation for program (for future programmers)
