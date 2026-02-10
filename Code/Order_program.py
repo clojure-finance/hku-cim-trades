@@ -42,16 +42,16 @@ for i in range(len(Trades_list)):
     today = datetime.now().date()
     yesterday = today - timedelta(days=1)
 
-    #ignore sundays and saturdays
-    #if yesterday.weekday() == 5 or yesterday.weekday() == 6:
-    #    continue
+    i#gnore sundays and saturdays
+    if yesterday.weekday() == 5 or yesterday.weekday() == 6:
+        continue
     
     yesterday_str = yesterday.strftime('%Y-%m-%d')
     today_str = today.strftime('%Y-%m-%d')
 
 #dates for showcase
-    today_str = "2026-01-16"
-    yesterday_str = "2026-01-15"
+    #today_str = "2026-01-16"
+    #yesterday_str = "2026-01-15"
 
     if os.path.exists(ORDER_FILE):
         df_orders = pd.read_csv(ORDER_FILE)

@@ -1,7 +1,7 @@
 name: Daily Order Conversion
 on:
   schedule:
-    - cron: '0 1 * * *'  # 01:00 UTC = 11am HKT
+    - cron: '15 1 * * *'  # 01:15 UTC = 9:15am HKT
   workflow_dispatch:
   
 jobs:
