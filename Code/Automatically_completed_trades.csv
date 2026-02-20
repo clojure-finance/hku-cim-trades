@@ -1,3 +1,4 @@
 Date,Action
 2026-02-09,"Order date: 2025-12-23 | Order team: Order_files/Test_order.csv | Placed trade: {'Date(YYYY-MM-DD)': '2026-02-09', 'Action(buy/sell)': 'buy', 'Number of units': 100, 'Ticker': 'AAPL', 'Price': np.float64(277.9100036621094)}"
 2026-02-09,"Order date: 2025-12-23 | Order team: Order_files/Test_order.csv | Placed trade: {'Date(YYYY-MM-DD)': '2026-02-09', 'Action(buy/sell)': 'sell', 'Number of units': 100, 'Ticker': 'AAPL', 'Price': np.float64(277.9100036621094)}"
+2026-02-19,"Order date: 2026-02-18 | Order team: Order_files/Industrials_order.csv | Placed trade: {'Date(YYYY-MM-DD)': '2026-02-19', 'Action(buy/sell)': 'sell', 'Number of units': 87400, 'Ticker': 'SCHNEIDER.NS', 'Price': np.float64(914.0)}"
