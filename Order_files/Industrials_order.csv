@@ -1,4 +1,4 @@
 Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,Status
 2026-02-18,marketsell,,87400,SCHNEIDER.NS,Complete
-2026-03-06,marketbuy,,1150,PWR,Active
+2026-03-06,marketbuy,,1150,PWR,Complete
 2026-03-06,stoploss,440.0,1150,PWR,Active
