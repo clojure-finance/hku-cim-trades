@@ -11,8 +11,9 @@ Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,S
 2026-04-15,stoploss,21.0,56000,PFE,Active
 2026-04-15,stoploss,100.0,30216,NVS,Active
 2026-04-15,stoploss,73.0,65000,MRK,Active
-2026-04-16,limitsell,580.0,4000,HCA,Active
-2026-04-16,limitsell,250.0,4000,ABBV,Active
-2026-04-16,limitsell,32.0,22600,PFE,Active
-2026-04-16,limitsell,180.0,12500,NVS,Active
-2026-04-16,limitsell,140.0,34500,MRK,Active
+2026-04-16,limitsell,500.0,4000,HCA,Active
+2026-04-16,limitsell,230.0,4000,ABBV,Active
+2026-04-16,limitsell,31.0,22600,PFE,Active
+2026-04-16,limitsell,170.0,12500,NVS,Active
+2026-04-16,limitsell,135.0,34500,MRK,Active
+2026-04-21,marketbuy,,5000,BIL,Active
