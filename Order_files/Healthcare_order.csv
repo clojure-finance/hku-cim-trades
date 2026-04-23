@@ -16,4 +16,4 @@ Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,S
 2026-04-16,limitsell,31.0,22600,PFE,Active
 2026-04-16,limitsell,170.0,12500,NVS,Active
 2026-04-16,limitsell,135.0,34500,MRK,Active
-2026-04-21,marketbuy,,5000,BIL,Active
+2026-04-21,marketbuy,,5000,BIL,Complete
