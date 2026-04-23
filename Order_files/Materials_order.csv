@@ -1,2 +1,4 @@
 Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,Status
 2026-03-02,marketbuy,,15000,AXTA,Complete
+2026-04-23,marketbuy,,10000,FCX,Active
+2026-04-23,stoploss,54,10000,FCX,Active
