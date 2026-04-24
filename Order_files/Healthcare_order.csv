@@ -2,7 +2,7 @@ Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,S
 2026-04-15,marketsell,,10000,MRK,Complete
 2026-04-15,marketsell,,5000,NVS,Complete
 2026-04-15,marketsell,,5000,UNH,Complete
-2026-04-15,limitbuy,505.0,3000,TMO,Active
+2026-04-15,limitbuy,505.0,3000,TMO,Complete
 2026-04-15,limitbuy,745.0,2000,REGN,Complete
 2026-04-15,limitbuy,435.0,3000,VRTX,Complete
 2026-04-15,marketbuy,,1803,BIL,Complete
