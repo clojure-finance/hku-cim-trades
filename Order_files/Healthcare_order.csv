@@ -17,7 +17,7 @@ Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,S
 2026-04-16,limitsell,170.0,12500,NVS,Active
 2026-04-16,limitsell,135.0,34500,MRK,Active
 2026-04-21,marketbuy,,5000,BIL,Complete
-2026-04-28,limitbuy,100.40,10000,SGOV,Active
+2026-04-28,limitbuy,100.4,10000,SGOV,Active
 2026-04-28,stoploss,400.0,3000,VRTX,Active
 2026-04-28,stoploss,700.0,1000,REGN,Active
 2026-04-28,stoploss,420.0,1500,TMO,Active
