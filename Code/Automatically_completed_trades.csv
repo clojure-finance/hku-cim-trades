@@ -15,3 +15,4 @@ Date,Action
 2026-04-22,"Order date: 2026-04-21 | Order team: Order_files/Healthcare_order.csv | Placed trade: {'Date(YYYY-MM-DD)': '2026-04-22', 'Action(buy/sell)': 'buy', 'Number of units': 5000, 'Ticker': 'BIL', 'Price': np.float64(91.56999969482422)}"
 2026-04-23,"Order date: 2026-04-15 | Order team: Order_files/Healthcare_order.csv | Placed trade: {'Date(YYYY-MM-DD)': '2026-04-23', 'Action(buy/sell)': 'buy', 'Number of units': 3000, 'Ticker': 'TMO', 'Price': np.float64(472.6499938964844)}"
 2026-04-29,"Order date: 2026-04-28 | Order team: Order_files/Healthcare_order.csv | Placed trade: {'Date(YYYY-MM-DD)': '2026-04-29', 'Action(buy/sell)': 'sell', 'Number of units': 1000, 'Ticker': 'REGN', 'Price': 700.0}"
+2026-05-13,"Order date: 2026-04-28 | Order team: Order_files/Healthcare_order.csv | Placed trade: {'Date(YYYY-MM-DD)': '2026-05-13', 'Action(buy/sell)': 'buy', 'Number of units': 10000, 'Ticker': 'SGOV', 'Price': 100.5}"
