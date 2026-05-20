@@ -48,3 +48,4 @@ Date(YYYY-MM-DD),Action(buy/sell),Number of units,Ticker,Price
 2026-04-23,buy,3000,TMO,472.6499938964844
 2026-04-29,sell,1000,REGN,700.0
 2026-05-13,buy,10000,SGOV,100.5
+2026-05-19,sell,9240,HCA,410.0
