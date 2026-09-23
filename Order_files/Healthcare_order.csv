@@ -23,8 +23,9 @@ Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,S
 2026-04-28,stoploss,430.0,1500,TMO,Active
 2026-06-03,limitbuy,460.0,TMO,5000,Active
 2026-06-03,marketsell,,1000,REGN,Complete
-2026-06-03,limitbuy,550.0,5000,REGN,Active
-2026-06-03,limitbuy,420.0,2000,VRTX,Active
-2026-09-23,marketbuy,,4000,ISRG,Active
+2026-06-03,limitbuy,660.0,5000,REGN,Active
+2026-06-03,limitbuy,460.0,2000,VRTX,Active
+2026-09-23,marketbuy,,3000,ISRG,Active
 2026-09-23,marketbuy,,1500,LLY,Active
 2026-09-23,marketbuy,,20000,ARWR,Active
+2026-09-23,marketbuy,,7000,AZN,Active
