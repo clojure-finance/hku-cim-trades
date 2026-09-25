@@ -25,7 +25,7 @@ Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,S
 2026-06-03,marketsell,,1000,REGN,Complete
 2026-06-03,limitbuy,660.0,5000,REGN,Active
 2026-06-03,limitbuy,460.0,2000,VRTX,Active
-2026-09-23,marketbuy,,3000,ISRG,Active
-2026-09-23,marketbuy,,1500,LLY,Active
-2026-09-23,marketbuy,,20000,ARWR,Active
-2026-09-23,marketbuy,,5000,AZN,Active
+2026-09-23,marketbuy,,3000,ISRG,Complete
+2026-09-23,marketbuy,,1500,LLY,Complete
+2026-09-23,marketbuy,,20000,ARWR,Complete
+2026-09-23,marketbuy,,5000,AZN,Complete
