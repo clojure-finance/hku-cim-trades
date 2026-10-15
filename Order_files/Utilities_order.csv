@@ -9,6 +9,6 @@ Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,S
 2026-10-06,marketsell,,2000,SBS,Complete
 2026-10-06,marketbuy,,500,VST,Complete
 2026-10-06,marketbuy,,1000,JXI,Complete
-2026-10-13,marketsell,,2500,SBS,Active
-2026-10-13,marketbuy,,1400,VST,Active
-2026-10-13,marketbuy,,2700,JXI,Active
+2026-10-13,marketsell,,2500,SBS,Complete
+2026-10-13,marketbuy,,1400,VST,Complete
+2026-10-13,marketbuy,,2700,JXI,Complete
