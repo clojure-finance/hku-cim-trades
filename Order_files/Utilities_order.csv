@@ -13,3 +13,4 @@ Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,S
 2026-10-13,marketbuy,,1400,VST,Complete
 2026-10-13,marketbuy,,2700,JXI,Complete
 2026-11-08,marketbuy,,1000,VST,Complete
+2026-11-11,marketbuy,,500,CEG,Active
