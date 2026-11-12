@@ -4,7 +4,7 @@ Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,S
 2026-03-06,stoploss,440.0,1150,PWR,Active
 2026-09-22,marketsell,,2067,GLD,Complete
 2026-09-22,marketbuy,,859,PH,Complete
-2026-11-10,marketsell,,1581,GLD,Active
-2026-11-10,marketbuy,,1001,CAT,Active
-2026-11-10,marketsell,,263,GLD,Active
-2026-11-10,marketbuy,,1009,AIT,Active
+2026-11-10,marketsell,,1581,GLD,Complete
+2026-11-10,marketbuy,,1001,CAT,Complete
+2026-11-10,marketsell,,263,GLD,Complete
+2026-11-10,marketbuy,,1009,AIT,Complete
