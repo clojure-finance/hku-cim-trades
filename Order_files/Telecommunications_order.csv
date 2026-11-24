@@ -1,4 +1,4 @@
-Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number,of,units,Ticker,Status
+Date(YYYY-MM-DD),Action(buy/sell),Number of units,Ticker,Price
 2025-10-23,buy,54969,TMUS,224.63706998171983
 2025-10-23,buy,73846,QCOM,167.47426420651104
 2025-10-23,buy,314070,VZ,39.11142695091775
