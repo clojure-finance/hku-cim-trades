@@ -1,8 +1,8 @@
 Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,Status
-2026-11-03,marketsell,,4250,GOOGL,Active
-2026-11-03,marketsell,,2500,WDC,Active
-2026-11-03,marketsell,,2500,FSLR,Active
-2026-11-03,marketbuy,,500,MSFT,Active
-2026-11-03,marketbuy,,760,AVGO,Active
-2026-11-03,marketbuy,,900,GOOGL,Active
-2026-11-03,marketbuy,,1200,NVDA,Active
+2026-11-03,marketsell,,4250,GOOGL,Complete
+2026-11-03,marketsell,,2500,WDC,Complete
+2026-11-03,marketsell,,2500,FSLR,Complete
+2026-11-03,marketbuy,,500,MSFT,Complete
+2026-11-03,marketbuy,,760,AVGO,Complete
+2026-11-03,marketbuy,,900,GOOGL,Complete
+2026-11-03,marketbuy,,1200,NVDA,Complete
