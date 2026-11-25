@@ -1,11 +1,11 @@
 Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,Status
-2025-10-23,marketbuy,,54969,TMUS,Completed
-2025-10-23,marketbuy,,73846,QCOM,Completed
-2025-10-23,marketbuy,,314070,VZ,Completed
-2025-10-23,marketbuy,,489236,T,Completed
-2026-01-12,marketsell,,78518,VZ,Completed
-2026-01-12,marketbuy,,9209,AVGO,Completed
-2026-02-02,marketsell,,489236,T,Completed
-2026-03-23,marketsell,,73846,QCOM,Completed
+2025-10-23,marketbuy,,54969,TMUS,Complete
+2025-10-23,marketbuy,,73846,QCOM,Complete
+2025-10-23,marketbuy,,314070,VZ,Complete
+2025-10-23,marketbuy,,489236,T,Complete
+2026-01-12,marketsell,,78518,VZ,Complete
+2026-01-12,marketbuy,,9209,AVGO,Complete
+2026-02-02,marketsell,,489236,T,Complete
+2026-03-23,marketsell,,73846,QCOM,Complete
 2026-11-24,marketsell,,130000,VZ,Active
 2026-11-24,marketsell,,27000,TMUS,Active
