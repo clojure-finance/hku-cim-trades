@@ -7,5 +7,5 @@ Date(YYYY-MM-DD),Action(mb/ms/lb/ls/sl/sb),TriggerPrice,Number of units,Ticker,S
 2026-01-12,marketbuy,,9209,AVGO,Complete
 2026-02-02,marketsell,,489236,T,Complete
 2026-03-23,marketsell,,73846,QCOM,Complete
-2026-11-24,marketsell,,130000,VZ,Active
-2026-11-24,marketsell,,27000,TMUS,Active
+2026-11-24,marketsell,,130000,VZ,Complete
+2026-11-24,marketsell,,27000,TMUS,Complete
